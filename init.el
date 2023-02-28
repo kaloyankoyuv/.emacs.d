@@ -16,7 +16,7 @@
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (package-initialize)
 
-(set-frame-font "Hack 12" nil t)
+(set-frame-font "DejaVu Sans Mono 12" nil t)
 (load-theme 'doom-one t)
 
 (setq
